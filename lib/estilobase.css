@@ -1,0 +1,82 @@
+.encabezado{
+	position: relative;
+	height: 200px;
+	top: 0px;
+	background-color: green;
+}
+
+.cuerpo1{
+	background-color: blue;
+}
+
+.cuerpo2{
+	background-color: red;
+	left: 670px;
+}
+
+.boton{
+	left: 310px;
+	width: 50px;
+}
+
+.buscador{
+	width: 300px;
+}
+
+.cuerpito1{
+	background-color: yellow;
+}
+
+.cuerpito2{
+	background-color: purple;
+	left: 370px;
+}
+
+.cuerpito3{
+	background-color: gray;
+	left: 730px;
+}
+
+.pie{
+	height: 50px;
+	background-color: black;
+	color: white;
+	top: 820px;
+}
+
+.absolute{
+	position: absolute;
+}
+
+.todos{
+	border: 2px solid black;
+}
+
+.algunos1{
+	width: 100%;
+}
+
+.algunos2{
+	top: 220px;
+	height: 300px;
+	width: 650;
+}
+
+.algunos3{
+	top: 570px;
+	height: 240px;
+	width: 350px;
+}
+
+.algunos4{
+	top: 530px;
+	height: 30px;
+	background-color: white;
+}
+
+a{
+	background-color: white;
+	position: fixed;
+	right: 0px;
+	bottom: 0px;
+}
