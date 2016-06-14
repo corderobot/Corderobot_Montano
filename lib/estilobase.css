@@ -1,32 +1,34 @@
 .encabezado{
 	height: 200px;
+	width: 100%;
 	background-color: green;
 }
 
 .cuerpo1{
+	width: 48%;
 	background-color: blue;
-	width: 49%;
 }
 
 .cuerpo2{
-	background-color: red;
-	width: 49%;
 	margin-left: 10px;
+	width: 48%;
+	background-color: red;
 }
 
 .boton{
 	width: 20%;
 	float: right;
+	height: 30px;
 }
 
 .buscador{
 	width: 80%;
-	float: left;
+	height: 30px;
 }
 
 .cuerpito1{
-	background-color: yellow;
 	margin-right: 10px;
+	background-color: yellow;
 }
 
 .cuerpito2{
@@ -34,45 +36,40 @@
 }
 
 .cuerpito3{
-	background-color: gray;
 	margin-left: 10px;
+	background-color: gray;
 }
 
 .pie{
-	margin-top: 10px;
 	height: 100px;
-	background-color: black;
+	width: 100%;
+	margin-top: 10px;
 	color: white;
+	background-color: black;
 }
 
 .todos{
 	border: 2px solid black;
 }
 
-.algunos1{
-	width: 100%;
+.algunos2{
+	height: 200px;
 }
 
-.algunos2{
-	height: 150px;
+.floatleft{
 	float: left;
 }
 
 /* Tres Cuadros */
 .algunos3{
-	float: left;
-	width: 33%;
-	height: 240px;
-}
-
-/* Buscador y boton*/
-.algunos4{
-	height: 30px;
+	width: 32%;
+	height: 300px;
 }
 
 .contenedor1{
 	padding-top: 10px;
 	overflow: hidden;
+	margin-right: -1%;
 }
 
 a{
