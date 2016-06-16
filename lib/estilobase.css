@@ -4,56 +4,67 @@
 	background-color: green;
 }
 
-.cuerpo1{
-	width: 48%;
+.fondo1{
 	background-color: blue;
+	height: 100%;
+	margin-right: 5px;
 }
 
-.cuerpo2{
-	margin-left: 10px;
-	width: 48%;
+.fondo2{
 	background-color: red;
+	height: 100%;
+	margin-left: 5px;
 }
 
 .boton{
-	width: 20%;
-	float: right;
+	position: absolute;
+	width: 150px;
 	height: 30px;
+	right: 0px;
+	top: 0px;
 }
 
 .buscador{
-	width: 80%;
+	width: 100%;
 	height: 30px;
+	margin-right: 160px;
 }
 
-.cuerpito1{
-	margin-right: 10px;
+.fondo3{
 	background-color: yellow;
+	height: 100%;
+	margin-right: 5px; 
 }
 
-.cuerpito2{
+.fondo4{
 	background-color: purple;
+	height: 100%;
+	margin-left: 5px;
+	margin-right: 5px;
 }
 
-.cuerpito3{
-	margin-left: 10px;
+.fondo5{
+	height: 100%;
+	margin-left: 5px;
 	background-color: gray;
 }
 
 .pie{
 	height: 100px;
 	width: 100%;
-	margin-top: 10px;
 	color: white;
 	background-color: black;
 }
 
 .todos{
 	border: 2px solid black;
+	margin-bottom: 10px;
+	box-sizing: border-box;
 }
 
 .algunos2{
 	height: 200px;
+	width: 50%;
 }
 
 .floatleft{
@@ -62,14 +73,20 @@
 
 /* Tres Cuadros */
 .algunos3{
-	width: 32%;
+	width: 33.33333%;
 	height: 300px;
 }
 
+.algunos4{
+	
+}
+
 .contenedor1{
-	padding-top: 10px;
 	overflow: hidden;
-	margin-right: -1%;
+}
+
+.contenedor-busqueda{
+	position: relative;
 }
 
 a{
