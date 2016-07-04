@@ -73,12 +73,18 @@
 
 /* Tres Cuadros */
 .algunos3{
-	width: 33.33333%;
+	width: 33.33%;
 	height: 300px;
 }
 
 .algunos4{
-	
+	height: 30px;
+	width: 100%;
+}
+
+.algunos5{
+	height: 300px;
+	width: 33.33%;
 }
 
 .contenedor1{
