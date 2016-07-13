@@ -1,17 +1,19 @@
+$width-height: 100%;
+
 .encabezado{
   background-color: green;
   height: 200px;
-  width: 100%;
+  width: $width-height;
 }
 
 .fondo1{
   background-color: blue;
-  height: 100%;
+  height: $width-height;
 }
 
 .fondo2{
   background-color: red;
-  height: 100%;
+  height: $width-height;
 }
 
 .boton{
@@ -25,29 +27,29 @@
 .buscador{
   height: 30px;
   margin-right: 160px;
-  width: 100%;
+  width: $width-height;
 }
 
 .fondo3{
   background-color: yellow;
-  height: 100%;
+  height: $width-height;
 }
 
 .fondo4{
   background-color: purple;
-  height: 100%;
+  height: $width-height;
 }
 
 .fondo5{
   background-color: gray;
-  height: 100%;
+  height: $width-height;
 }
 
 .pie{
   background-color: black;
   color: white;
-  height: 100px;
-  width: 100%;
+  height: $width-height;
+  width: $width-height;
 }
 
 .todos{
@@ -63,18 +65,18 @@
 /* Tres Cuadros */
 .algunos3{
   height: 300px;
-  width: 100%;
+  width: $width-height;
 }
 
 .algunos4{
   height: 30px;
   margin-bottom: 10px;
-  width: 100%;
+  width: $width-height;
 }
 
 .algunos5{
   height: 300px;
-  width: 100%;
+  width: $width-height;
 }
 
 .contenedor1{
@@ -139,7 +141,7 @@ img{
 
   .algunos4{
     height: 30px;
-    width: 100%;
+    width: $width-height;
   }
 
   .algunos5{
@@ -171,7 +173,7 @@ img{
 
   .algunos4{
     height: 30px;
-    width: 100%;
+    width: $width-height;
   }
 
   .algunos5{

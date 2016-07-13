@@ -1,0 +1,128 @@
+.encabezado {
+  background-color: green;
+  height: 200px;
+  width: 100%; }
+
+.fondo1 {
+  background-color: blue;
+  height: 100%; }
+
+.fondo2 {
+  background-color: red;
+  height: 100%; }
+
+.boton {
+  height: 30px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 150px; }
+
+.buscador {
+  height: 30px;
+  margin-right: 160px;
+  width: 100%; }
+
+.fondo3 {
+  background-color: yellow;
+  height: 100%; }
+
+.fondo4 {
+  background-color: purple;
+  height: 100%; }
+
+.fondo5 {
+  background-color: gray;
+  height: 100%; }
+
+.pie {
+  background-color: black;
+  color: white;
+  height: 100%;
+  width: 100%; }
+
+.todos {
+  border: 2px solid black;
+  box-sizing: border-box;
+  margin-bottom: 10px; }
+
+.algunos2 {
+  height: 200px; }
+
+/* Tres Cuadros */
+.algunos3 {
+  height: 300px;
+  width: 100%; }
+
+.algunos4 {
+  height: 30px;
+  margin-bottom: 10px;
+  width: 100%; }
+
+.algunos5 {
+  height: 300px;
+  width: 100%; }
+
+.contenedor1 {
+  overflow: hidden; }
+
+.estilo2 {
+  box-sizing: border-box;
+  margin-bottom: 10px; }
+
+.contenedor-busqueda {
+  position: relative; }
+
+a {
+  background-color: white;
+  bottom: 10px;
+  font-size: 20px;
+  position: fixed;
+  right: 10px;
+  right: 10px; }
+
+img {
+  height: 25px;
+  width: 50px; }
+
+/* 768px */
+@media (min-width: 768px) {
+  .fondo1 {
+    margin-right: 5px; }
+  .fondo2 {
+    margin-left: 5px; }
+  .fondo4 {
+    margin-right: 5px; }
+  .fondo5 {
+    margin-left: 5px; }
+  .algunos2 {
+    width: 50%; }
+  .floatleft {
+    float: left; }
+  /* Tres Cuadros */
+  .algunos3 {
+    width: 50%; }
+  .algunos4 {
+    height: 30px;
+    width: 100%; }
+  .algunos5 {
+    box-sizing: border-box;
+    margin-bottom: 10px; } }
+
+@media (min-width: 1200px) {
+  .fondo3 {
+    margin-right: 5px; }
+  .fondo4 {
+    margin-left: 5px; }
+  .algunos2 {
+    height: 200px;
+    width: 50%; }
+  /* Tres Cuadros */
+  .algunos3 {
+    width: 33.33%; }
+  .algunos4 {
+    height: 30px;
+    width: 100%; }
+  .algunos5 {
+    height: 300px;
+    width: 33.33%; } }
